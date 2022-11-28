@@ -1,0 +1,6 @@
+make cuda.o --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/fengh/GPU Training Material/week1_2-Intro/lab1'
+/usr/local/cuda/bin/nvcc -m64 -g -dc -Wno-deprecated-gpu-targets --std=c++11 --expt-relaxed-constexpr -gencode arch=compute_35,code=sm_35 -gencode arch=compute_50,code=sm_50 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_86,code=compute_86 -c -o blur.cu.o  src/blur.cu
+/usr/local/cuda/bin/nvcc -dlink -Wno-deprecated-gpu-targets -gencode arch=compute_35,code=sm_35 -gencode arch=compute_50,code=sm_50 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_86,code=compute_86 -o cuda.o  blur.cu.o
+make: Leaving directory '/home/fengh/GPU Training Material/week1_2-Intro/lab1'
+ 

@@ -1,0 +1,15 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/fengh/GPU Training Material/week1_2-Intro/lab1",
+            "binaryPath": "/home/fengh/GPU Training Material/week1_2-Intro/lab1/audio-blur",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/fengh/GPU Training Material/week1_2-Intro/lab1",
+            "binaryPath": "/home/fengh/GPU Training Material/week1_2-Intro/lab1/cuda.o",
+            "binaryArgs": []
+        }
+    ]
+}

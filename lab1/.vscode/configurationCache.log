@@ -1,0 +1,1 @@
+{"buildTargets":["all","audio","audio-blur.cpp.o","blur.cu.o","clean","cuda","cuda.o","noaudio"],"launchTargets":["/home/fengh/GPU Training Material/week1_2-Intro/lab1>cuda.o()"],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
